@@ -28,5 +28,13 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-" set number
+" Custom config
+set number
+
+" syntax
 syntax enable
+filetype plugin on
+
+" file finding
+set path+=**
+set wildmenu
