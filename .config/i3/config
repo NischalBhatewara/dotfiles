@@ -107,7 +107,7 @@ bindsym $mod+Shift+0 move container to workspace 10
 # bind applications to workspace
 assign [class="Termite"] $wk1
 assign [class="Google-chrome"] $wk2
-assign [class="Spotify"] $wk3
+for_window [class="Spotify"] move to workspace $wk3
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
