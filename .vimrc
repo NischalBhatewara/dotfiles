@@ -12,21 +12,25 @@ execute pathogen#infect()
 " jk to <ESC>
 inoremap jk <esc>
 
+"filetype plugin indent on
+
 " Tabs and spaces
 set tabstop=4
 set softtabstop=4
 set expandtab
+set softtabstop=4
+set shiftwidth=4
 
 " UI stuff
 set showcmd
 set cursorline
-filetype indent on
 set number
 set relativenumber
 set lazyredraw
 set showmatch
-set foldenable
-set foldmethod=indent
+"set foldenable
+"set foldmethod=indent
+set colorcolumn=110
 
 " move vertically by visual line
 nnoremap j gj
