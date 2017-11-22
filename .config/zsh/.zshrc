@@ -1,5 +1,6 @@
 export LANG=en_US.UTF-8
 eval $(dircolors ~/.config/dir_colors)
+export PATH=/home/cyclops/workspace/anaconda3/bin:$PATH
 #If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
